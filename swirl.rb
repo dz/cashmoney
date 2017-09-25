@@ -42,5 +42,4 @@ class Swirl
       ""
     end
   end
-
 end
