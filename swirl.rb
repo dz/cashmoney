@@ -15,7 +15,7 @@ class Swirl
   end
 
   def db_has_word?(word)
-    @db && @db.respond_to?(:has_word?) ? @db.has_word?(word.downcase) : false
+    @db && @db.respond_to?(:has_word?) ? @db.has_word?(word) : false
   end
 
   def db_word_link(word)
